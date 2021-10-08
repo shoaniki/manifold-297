@@ -1,12 +1,7 @@
 plugins {
-    `java-library`
+    kotlin("jvm") version "1.5.31"
 }
 
 repositories {
     mavenCentral()
-}
-
-java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
 }
